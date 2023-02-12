@@ -21,13 +21,13 @@
     <div class="scroll-up-btn">
         <i class="fas fa-angle-up"></i>
     </div>
-    <nav class="navbar" id="navbar">
+    <nav class="navbar" id="nav-menu">
         <div class="max-width ">
             <div class="logo">
                 <div class="rightLogo">
                 <img src="images/me.jpeg" alt="">
                 </div>
-                <a href="#" id="name">Ramya<span>Priya</span></a></div>
+                <a href="#" id="user-detail-name">Ramya<span>Priya</span></a></div>
             <ul class="menu">
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
@@ -36,7 +36,7 @@
                 <li><a href="#skills" class="menu-btn">Skills</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <li><a href="#contact" class="menu-btn">Contact</a></li>
-                <li><a href="./pdf/Ramya_Priya_Resume.pdf" download="" target="_blank" class="menu-btn">Resume</a></li>
+                <li><a href="./pdf/Ramya_Priya_Resume.pdf" class="nav-link resume"  id="resume-link-1" download="" target="_blank" class="menu-btn">Resume</a></li>
             </ul>
             <div class="menu-btn">
                 <i class="fas fa-bars"></i>
@@ -45,30 +45,30 @@
     </nav>
 
     <!-- home section start -->
-    <section class="home" id="home">
+    <section class="nav-link home" id="home">
         <div class="max-width reveal">
             <div class="home-content">
                 <div class="text-1">Hello, This is</div>
                 <div class="text-2">Ramya Priya</div>
                 <div class="text-3">And I'm a <span class="typing"></span></div>
-                <a href="./pdf/Ramya_Priya_Resume.pdf" download="" target="_blank">Resume</a>
+                <a href="./pdf/Ramya_Priya_Resume.pdf"  id="resume-link-2" download="" target="_blank">Resume</a>
             </div>
         </div>
     </section>
 
     <!-- about section start -->
-    <section class="about reveal" id="about">
+    <section class="nav-link about section reveal" id="about" >
         <div class="max-width">
             <!-- <h2 class="title">About me</h2> -->
             <title>About</title>
             <h2 class="sub-titl" style="margin-top: 5%;">About Me</h2>
             <div class="about-content">
                 <div class="column left">
-                   <img id="photo" src="./images/me.jpeg" alt="">
+                   <img class="home-img" src="./images/me.jpeg" alt="">
                 </div>
                 <div class="column right">
                     <div class="text"><span class="typing-2"></span></div>
-                    <p id="introduction">Aspiring Java Backend Developer with a specialization in Java, Spring Boot, SQL, REST APIs, Git/Github, AWS, HTML, CSS, Javascript, Object-oriented, design Self-motivated and curious, with a keen interest in building user-centric products. Looking forward to honing my skills in a challenging work environment </p>
+                    <p id="user-detail-intro">Aspiring Java Backend Developer with a specialization in Java, Spring Boot, SQL, REST APIs, Git/Github, AWS, HTML, CSS, Javascript, Object-oriented, design Self-motivated and curious, with a keen interest in building user-centric products. Looking forward to honing my skills in a challenging work environment </p>
                     <!-- <a href="#">Download CV</a> -->
                 </div>
             </div>
@@ -79,7 +79,7 @@
 
 
     <!-- skills section start -->
-    <section class="skills reveal" id="skills">
+    <section class="nav-link skills reveal" id="skills">
         <div class="max-width">
             <!-- <h2 class="title">Tech Stack</h2> -->
             <h2 class="sub-titl" style="margin-top: -8%;">Tech Stack</h2>
@@ -95,16 +95,16 @@
                     </div>
                     <div class="stack">
                         <ul class="tech">
-                            <li style="--i:4;--clr:#F29111"><a href=""><span><i class="fa-brands fa-java"></i></span> Java</a></li>
-                            <li style="--i:3;--clr:blue"><a href=""><span><i class="fa-solid fa-database"></i></span> SQL</a></li>
-                            <li style="--i:2;--clr:#26AEE7 "><a href=""><span><i class="fa-brands fa-aws"></i></span> AWS</a></li>
-                            <li style="--i:1;--clr:  #F1502F"><a href=""><span><i class="fa-brands fa-git"></i></span> Git</a></li>
+                            <li class="skills-card" style="--i:4;--clr:#F29111"><a class="skills-card-name" href=""><span><i class="skills-card-img" class="fa-brands fa-java"></i></span> Java</a></li>
+                            <li class="skills-card" style="--i:3;--clr:blue"><a class="skills-card-name" href=""><span><i class="skills-card-img" class="fa-solid fa-database"></i></span> SQL</a></li>
+                            <li class="skills-card" style="--i:2;--clr:#26AEE7 "><a class="skills-card-name" href=""><span><i class="skills-card-img" class="fa-brands fa-aws"></i></span> AWS</a></li>
+                            <li class="skills-card" style="--i:1;--clr:  #F1502F"><a class="skills-card-name" href=""><span><i class="skills-card-img" class="fa-brands fa-git"></i></span> Git</a></li>
                         </ul>
                         <ul class="tech">
-                            <li style="--i:4;--clr:#F0DB4F"><a href=""><span><i class="fa-brands fa-js"></i></span> JavaScript</a></li>
-                            <li style="--i:3;--clr:#F06529"><a href=""><span><i class="fa-brands fa-html5"></i></span> HTML</a></li>
-                            <li style="--i:2;--clr:#264de4"><a href=""><span><i class="fa-brands fa-css3-alt"></i></span> CSS</a></li>
-                            <li style="--i:1;--clr:grey"><a href=""><span><i class="fa-brands fa-github"></i></span> Github</a></li>
+                            <li class="skills-card" style="--i:4;--clr:#F0DB4F"><a class="skills-card-name" href=""><span><i class="skills-card-img" class="fa-brands fa-js"></i></span> JavaScript</a></li>
+                            <li class="skills-card" style="--i:3;--clr:#F06529"><a class="skills-card-name" href=""><span><i class="skills-card-img" class="fa-brands fa-html5"></i></span> HTML</a></li>
+                            <li class="skills-card" style="--i:2;--clr:#264de4"><a class="skills-card-name" href=""><span><i class="skills-card-img" class="fa-brands fa-css3-alt"></i></span> CSS</a></li>
+                            <li class="skills-card" style="--i:1;--clr:grey"><a class="skills-card-name" href=""><span><i class="skills-card-img" class="fa-brands fa-github"></i></span> Github</a></li>
                         </ul>
                  </div>
                 </div>
@@ -141,7 +141,7 @@
     </div>
     <!-- </section> -->
     <!-- project section start -->
-    <section class="project" id="projects">
+    <section class="nav-link projects project project-card" id="projects">
         <div class="max-width">
             <!-- <h2 class="title">Projects</h2> -->
             <h2 class="sub-titl" style="color: white;">Projects</h2>
@@ -149,15 +149,15 @@
                 <div class="card">
                     <div class="box">
                         <img src="images/Zoomcar.jpg" alt="">
-                        <div class="text">Zoom Car</div>
-                        <p>Rent car application with a very interactive UI and lots of things to learn while working. It provides customers their service at different modes , and allow to hire car and also on rent.</p>
-                        <p class="techStack"><span style="color: crimson;font-weight:bolder;">Tech Used:</span>   Html, CSS, JavaScript</p>
+                        <div class="project-title text">Zoom Car</div>
+                        <p class="project-description">Rent car application with a very interactive UI and lots of things to learn while working. It provides customers their service at different modes , and allow to hire car and also on rent.</p>
+                        <p class="project-tech-stack techStack"><span style="color: crimson;font-weight:bolder;">Tech Used:</span>   Html, CSS, JavaScript</p>
                         <div class="repo-links">
                             <div class="repo-div">
-                                <span>  <a href="https://github.com/zuhedshaikh95/zoomcar-clone" target="_blank"> Git Repo </a></span>
+                                <span>  <a class="project-github-link" href="https://github.com/zuhedshaikh95/zoomcar-clone" target="_blank"> Git Repo </a></span>
                             </div>
                             <div class="demo-div">
-                                <span> <a href="https://magical-kashata-a20ef2.netlify.app/" target="_blank">  Live Site  </a></span>
+                                <span> <a class="project-deployed-link" href="https://magical-kashata-a20ef2.netlify.app/" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
@@ -166,15 +166,15 @@
                 <div class="card">
                     <div class="box">
                         <img src="images/sugar.jpg" alt="">
-                        <div class="text">Suger Cosmetics</div>
-                        <p>SUGAR Cosmetics is a cruelty-free makeup brand that is high on style and higher on performance. The brand is inspired by and targeted towards bold, independent women.</p>
-                        <p class="techStack"><span style="color: crimson;font-weight:bolder;">Tech Used:</span>   Html, CSS, JavaScript</p>
+                        <div class="project-title text">Suger Cosmetics</div>
+                        <p class="project-description">SUGAR Cosmetics is a cruelty-free makeup brand that is high on style and higher on performance. The brand is inspired by and targeted towards bold, independent women.</p>
+                        <p class="project-tech-stack techStack"><span style="color: crimson;font-weight:bolder;">Tech Used:</span>   Html, CSS, JavaScript</p>
                         <div class="repo-links">
                             <div class="repo-div">
-                                <span>  <a href="https://github.com/RevatiJunghare/holistic-slip-8772" target="_blank"> Git Repo </a></span>
+                                <span>  <a class="project-github-link" href="https://github.com/RevatiJunghare/holistic-slip-8772" target="_blank"> Git Repo </a></span>
                             </div>
                             <div class="demo-div">
-                                <span> <a href="https://effortless-sunflower-25458d.netlify.app/" target="_blank">  Live Site  </a></span>
+                                <span> <a class="project-deployed-link" href="https://effortless-sunflower-25458d.netlify.app/" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
@@ -183,15 +183,15 @@
                 <div class="card">
                     <div class="box">
                         <img src="images/bath.jpg" alt="">
-                        <div class="text">Bath & Body</div>
-                        <p>CronoMeter website Clone, created of the clone of this website with help of my  teammates . And that was good colabarte with my teammates . </p>
-                        <p class="techStack"><span style="color: crimson;font-weight:bolder;">Tech Used:</span>   Html, CSS3, JavaScript  </p>
+                        <div class="project-title text">Bath & Body</div>
+                        <p class="project-description">CronoMeter website Clone, created of the clone of this website with help of my  teammates . And that was good colabarte with my teammates . </p>
+                        <p class="project-tech-stack techStack"><span style="color: crimson;font-weight:bolder;">Tech Used:</span>   Html, CSS3, JavaScript  </p>
                         <div class="repo-links">
                             <div class="repo-div">
-                                <span>  <a href="https://github.com/Dharam-103/unwidely-sponge-3549" target="_blank"> Git Repo </a></span>
+                                <span>  <a class="project-github-link" href="https://github.com/Dharam-103/unwidely-sponge-3549" target="_blank"> Git Repo </a></span>
                             </div>
                             <div class="demo-div">
-                                <span> <a href="https://jolly-salmiakki-962c7e.netlify.app/" target="_blank">  Live Site  </a></span>
+                                <span> <a class="project-deployed-link" href="https://jolly-salmiakki-962c7e.netlify.app/" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
@@ -202,15 +202,15 @@
                 <div class="card">
                     <div class="box">
                         <img src="images/bath.jpg" alt="">
-                        <div class="text">Bath & Body</div>
-                        <p>CronoMeter website Clone, created of the clone of this website with help of my  teammates . And that was good colabarte with my teammates . </p>
-                        <p class="techStack"><span style="color: crimson;font-weight:bolder;">Tech Used:</span>   Html, CSS3, JavaScript  </p>
+                        <div class="project-title text">Bath & Body</div>
+                        <p class="project-description">CronoMeter website Clone, created of the clone of this website with help of my  teammates . And that was good colabarte with my teammates . </p>
+                        <p class="project-tech-stack techStack"><span style="color: crimson;font-weight:bolder;">Tech Used:</span>   Html, CSS3, JavaScript  </p>
                         <div class="repo-links">
                             <div class="repo-div">
-                                <span>  <a href="https://github.com/Dharam-103/unwidely-sponge-3549" target="_blank"> Git Repo </a></span>
+                                <span>  <a class="project-github-link" href="https://github.com/Dharam-103/unwidely-sponge-3549" target="_blank"> Git Repo </a></span>
                             </div>
                             <div class="demo-div">
-                                <span> <a href="https://jolly-salmiakki-962c7e.netlify.app/" target="_blank">  Live Site  </a></span>
+                                <span> <a class="project-deployed-link" href="https://jolly-salmiakki-962c7e.netlify.app/" target="_blank">  Live Site  </a></span>
                             </div>
                         </div>
                     </div>
@@ -226,12 +226,12 @@
         <h1 class="sub-titl">My Stats</h1>
 
         <div class="stats" style="width: 100%;">
-            <img src="https://github-readme-stats.vercel.app/api?username=kotaRamyapriya&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="">
-            <img src="https://github-readme-streak-stats.herokuapp.com/?user=kotaRamyapriya&theme=dark&hide_border=false" alt="">
-            <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=kotaRamyapriya&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
+            <img id="github-stats-card" src="https://github-readme-stats.vercel.app/api?username=kotaRamyapriya&theme=dark&hide_border=false&include_all_commits=true&count_private=false" alt="">
+            <img id="github-streak-stats" src="https://github-readme-streak-stats.herokuapp.com/?user=kotaRamyapriya&theme=dark&hide_border=false" alt="">
+            <img id="github-top-langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=kotaRamyapriya&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact" alt="">
         </div>
 
-        <div class="calendar" style=" color: #f49812" >
+        <div class="calendar" class="react-activity-calendar" style=" color: #f49812" >
             <!-- Loading stuff -->
             Loading the data just for you.
         </div>
@@ -259,7 +259,7 @@
     GitHubCalendar(".calendar", "kotaRamyapriya", { responsive: true });
 </script>
     <!-- contact section start -->
-    <section class="contact" id="contact">
+    <section class="nav-link contact" id="contact">
         <div class="max-width">
             <!-- <h2 class="">Contact me</h2> -->
             <h2 class="sub-titl" style="margin-top: -8%;">Contact Me</h2>
@@ -272,18 +272,18 @@
                             <a href="mailto:kramyapriya58@gmail.com"> <i class="fas fa-envelope"></i> </a>
                             <div class="info">
                                 <div class="head"></div>
-                                <div class="sub-title">  <a href="mailto:kramyapriya58@gmail.com"> kramyapriya58@gmail.com</a> </div>
+                                <div class="sub-title">  <a id="contact-email" href="mailto:kramyapriya58@gmail.com"> kramyapriya58@gmail.com</a> </div>
                             </div>
                         </div>
                         <div class="row">
                              <a href="https://www.linkedin.com/in/kotaRamyapriya/" target="_blank"> <i class="fab fa-linkedin"></i> </a>
                             <div class="info">
                                 <!-- <div class="head">Address</div> -->
-                                <div class="sub-title">  <a href="https://www.linkedin.com/in/kotaRamyapriya/" target="_blank">kotaRamyapriya</a> </div>
+                                <div class="sub-title">  <a id="contact-linkedin" href="https://www.linkedin.com/in/kotaRamyapriya/" target="_blank">kotaRamyapriya</a> </div>
                             </div>
                         </div>
                         <div class="row">
-                             <a href="https://github.com/kotaRamyapriya" target="_blank"> <i class="fab fa-github"></i> </a>
+                             <a href="https://github.com/kotaRamyapriya" id="contact-github" target="_blank"> <i class="fab fa-github"></i> </a>
                             <div class="info">
                                 <!-- <div class="head">Email</div> -->
                                 <div class="sub-title"> <a href="https://github.com/kotaRamyapriya" target="_blank" >kotaRamyapriya</a> </div>
@@ -296,7 +296,7 @@
                                 </span> </a>
                            <div class="info">
                                <!-- <div class="head">Email</div> -->
-                               <div class="sub-title"> +91 8688646954 </div>
+                               <div class="sub-title" id="contact-phone"> +91 8688646954 </div>
                            </div>
                        </div>
                         
